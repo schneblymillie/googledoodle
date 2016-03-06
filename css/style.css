@@ -1,0 +1,104 @@
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em; 
+  letter-spacing: .3em; 
+  text-align: center; 
+}
+/* basic sizing */
+.visual,
+.design {
+  width: 20%;
+  display: inline; 
+}
+.communication {
+  width: 45%; 
+  display: inline; 
+}
+.visual {
+  padding-right: 3em; 
+}
+.communication{
+  padding-right: 2em; 
+}
+.design {
+  margin-top: 1em; 
+}
+.line {
+}
+
+.visual {
+      margin-left: 2%;
+}
+/* COLOR */
+svg.visual, 
+svg.communication,
+svg.design{
+  fill: rgba(255,0,0,.5); 
+}
+
+/* VCD group properties */
+div.visual,
+div.communication,
+div.design, {
+  width: 50%; 
+  display: block; 
+  margin: 11em auto; 
+}
+
+div.vcd {
+      margin-top: 16em;
+}
+
+/* GOOGLE SEARCHBAR */
+img {
+  display: block; 
+  margin: 3em auto;
+}
+
+/* LINE */
+svg.linetwo {
+  width: 50%; 
+  padding-top: 1em; 
+}
+
+svg.lineone {
+  width: 50%; 
+  margin-bottom: -142em;
+  display: block; 
+  float: right; 
+}
+
+/* ANIMATION OF VCD*/
+
+.visual {
+  animation: fadeInDown 2s 1; 
+}
+
+.communication {
+  animation: fadeInUp 2s 1 ; 
+}
+
+.design {
+  animation: fadeInDown 2s 1 ; 
+}
+
+/* ANIMATION OF LINES*/
+
+.lineone {
+  animation: fadeInRight 1.5s 1; 
+}
+
+.linetwo {
+  animation: fadeInLeft 1.5s 1; 
+}
+
+
+div.paragraph {
+    animation: fadeIn 5s 1 0s;
+}
+
+.group {
+  display: block; 
+  margin: 0 auto; 
+}
+
